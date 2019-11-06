@@ -38,6 +38,7 @@
 		2D5AB2E8237352A90031A505 /* SwiftUIRecomendationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRecomendationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5AB2EC237352A90031A505 /* SwiftUIRecomendationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRecomendationsTests.swift; sourceTree = "<group>"; };
 		2D5AB2EE237352A90031A505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5AB2F7237352C50031A505 /* Captura de Tela 2019-11-06 às 15.36.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Captura de Tela 2019-11-06 às 15.36.45.png"; path = "../../Downloads/Captura de Tela 2019-11-06 às 15.36.45.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		2D5AB2C9237352A70031A505 = {
 			isa = PBXGroup;
 			children = (
+				2D5AB2F7237352C50031A505 /* Captura de Tela 2019-11-06 às 15.36.45.png */,
 				2D5AB2D4237352A70031A505 /* SwiftUIRecomendations */,
 				2D5AB2EB237352A90031A505 /* SwiftUIRecomendationsTests */,
 				2D5AB2D3237352A70031A505 /* Products */,
