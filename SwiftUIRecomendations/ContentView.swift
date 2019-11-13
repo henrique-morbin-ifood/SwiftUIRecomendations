@@ -10,14 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
-        HStack {
-            Image("mcdonalds")
-                .resizable()
-                .padding(12)
-                .frame(width: 48, height: 48, alignment: .center)
-                .background(Color.red)
-                .cornerRadius(24)
+        HStack(alignment: .center, spacing: 0) {
+            Group {
+                Image("mcdonalds")
+                    .resizable()
+                    .padding(12)
+                    .frame(width: 48, height: 48, alignment: .center)
+                    .background(Color.red)
+                    .cornerRadius(24)
+            }
+            .padding(.horizontal, 18)
             Divider()
             VStack(alignment: .leading, spacing: 16) {
                 VStack(alignment: .leading, spacing: 4) {
@@ -38,8 +40,17 @@ struct ContentView: View {
                     .foregroundColor(.gray)
                     .font(.caption)
             }
-            .padding(8)
+            .padding(.vertical, 8)
+            .padding(.horizontal, 12)
+
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color.white)
+        .fixedSize(horizontal: false, vertical: true)
+        .clipped()
+        .cornerRadius(4)
+        .shadow(color: .shadow, radius: 1, x: 0, y: 0)
+        .padding(.horizontal, 16)
     }
 }
 
